@@ -596,7 +596,7 @@ metadata:
   name: litmusportal-frontend-service
   namespace: litmus
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
     - name: http
       port: 9091
